@@ -14,7 +14,7 @@
                     <li><a href="index.php#faculty" class="transition-colors hover:text-white">Faculty</a></li>
                     <li><a href="index.php#agenda" class="transition-colors hover:text-white">Agenda</a></li>
                     <li><a href="index.php#venue" class="transition-colors hover:text-white">Venue</a></li>
-                    <li><a href="<?= REGISTER_URL ?>" class="transition-colors hover:text-white">Register</a></li>
+                    <li><a href="<?= REGISTER_URL ?>" target="_blank" rel="noopener" class="transition-colors hover:text-white">Register</a></li>
                 </ul>
             </div>
 

@@ -11,9 +11,8 @@ Advances and Clinical Transformation), a CME accredited in-person meeting.
 
 ```
 index.php            hero banner, countdown, stats, about, faculty, agenda, venue, register CTA, partners
-register.php         registration page (external-link button)
 partials/
-  config.php         ALL event content + SITE_URL + GA id + register links + icon_svg()
+  config.php         ALL event content + SITE_URL + GA id + REGISTER_URL + icon_svg()
   header.php         <head>, SEO/OG/Twitter, Event JSON-LD (in-person), brand theme, nav
   footer.php         contact + explore + Sanofi "Supported by" + scripts
   stats.php          shared stats band
@@ -32,8 +31,8 @@ assets/
 
 Everything is driven from `partials/config.php`:
 
-- **Registration link** — set `EXT_REGISTER_URL` to the ESH/MME registration URL.
-  While empty, the Register button falls back to an email request.
+- **Registration link** — set `REGISTER_URL` to the registration URL. All
+  Register buttons link straight there (opens in a new tab).
 - **Hero banners** — replace `assets/hero-desktop.jpg` / `assets/hero-mobile.jpg`,
   or repoint `HERO_DESKTOP` / `HERO_MOBILE`.
 - **Domain** — set `SITE_URL` (also update `robots.txt` and `sitemap.xml`).

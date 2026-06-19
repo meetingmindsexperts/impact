@@ -7,7 +7,7 @@ $pageTitle = $pageTitle ?? 'IMPACT | Multiple Myeloma Meeting';
 $pageDesc  = $pageDesc  ?? 'IMPACT, Innovative Myeloma Patient-Centered Advances and Clinical Transformation. A CME accredited in-person meeting on Multiple Myeloma. 28 June 2026, Vida Emirates Hills, Dubai.';
 $page      = $page      ?? 'home';
 $home = $page === 'home' ? '' : 'index.php';
-$canonical = SITE_URL . ($page === 'home' ? '/' : '/register.php');
+$canonical = SITE_URL . '/';
 $ogImage   = SITE_URL . '/assets/og-image.jpg';
 ?>
 <!DOCTYPE html>
@@ -79,7 +79,7 @@ $ogImage   = SITE_URL . '/assets/og-image.jpg';
             'price'         => '0',
             'priceCurrency' => 'AED',
             'availability'  => 'https://schema.org/InStock',
-            'url'           => SITE_URL . '/register.php',
+            'url'           => REGISTER_URL,
         ],
     ], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT) ?>
     </script>
@@ -152,7 +152,7 @@ $ogImage   = SITE_URL . '/assets/og-image.jpg';
             <a href="<?= $home ?>#venue" class="transition-colors hover:text-brand-light">Venue</a>
         </div>
 
-        <a href="<?= REGISTER_URL ?>"
+        <a href="<?= REGISTER_URL ?>" target="_blank" rel="noopener"
            class="inline-flex items-center whitespace-nowrap rounded-full bg-accent px-4 py-2.5 text-sm font-bold text-ink-900 shadow-lg shadow-accent/20 transition-transform hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent sm:px-5">
             Register Now
         </a>

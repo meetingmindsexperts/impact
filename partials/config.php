@@ -1,7 +1,7 @@
 <?php
 /**
  * Shared configuration and content for the IMPACT site.
- * Included by index.php and register.php. Single source of truth.
+ * Included by index.php. Single source of truth.
  */
 
 declare(strict_types=1);
@@ -23,27 +23,9 @@ const SITE_URL = 'https://myeloma-impact.com';
 // Google Analytics measurement ID (set when available).
 const GA_MEASUREMENT_ID = 'G-581DH9C7Y9';
 
-// In-page Register buttons point at the registration page.
-const REGISTER_URL  = 'register.php';
-const SUBSCRIBE_URL = 'register.php#subscribe';
-
-// >>> External registration link (ESH / MME registration system). <<<
-// Leave empty to fall back to an email registration request.
-const EXT_REGISTER_URL = '';
-
-/** Resolved href for the big "Proceed to registration" button. */
-function register_link(): string
-{
-    return EXT_REGISTER_URL !== ''
-        ? EXT_REGISTER_URL
-        : 'mailto:virtual@meetingmindsexperts.com?subject=IMPACT%20Registration';
-}
-
-/** Opens external links in a new tab; email links stay in place. */
-function register_target_attr(): string
-{
-    return EXT_REGISTER_URL !== '' ? ' target="_blank" rel="noopener"' : '';
-}
+// Register buttons link straight to the external registration system.
+const REGISTER_URL  = 'https://events.meetingmindsgroup.com/e/impact2026/register/standard';
+const SUBSCRIBE_URL = 'mailto:virtual@meetingmindsexperts.com?subject=IMPACT%20Meeting%20enquiry';
 
 // Replaceable hero banner artwork (desktop + mobile). Swap these files to
 // update the hero without touching markup.

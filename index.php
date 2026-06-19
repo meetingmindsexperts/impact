@@ -1,8 +1,8 @@
 <?php
 /**
  * IMPACT | Multiple Myeloma Meeting
- * Single page event landing. Registration on register.php links out to the
- * external ESH / MME registration system.
+ * Single page event landing. Register buttons link out to the external
+ * registration system (REGISTER_URL in config.php).
  */
 
 require __DIR__ . '/partials/config.php';
@@ -59,7 +59,7 @@ require __DIR__ . '/partials/header.php';
                    class="inline-flex items-center gap-2 rounded-full border-2 border-white/25 px-6 py-3 text-sm font-bold text-white transition-colors hover:border-brand-light hover:text-brand-light">
                     View Agenda
                 </a>
-                <a href="<?= REGISTER_URL ?>"
+                <a href="<?= REGISTER_URL ?>" target="_blank" rel="noopener"
                    class="inline-flex items-center gap-2 rounded-full bg-accent px-7 py-3.5 text-base font-bold text-ink-900 shadow-xl shadow-accent/25 transition-transform hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">
                     Register Now
                     <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z" clip-rule="evenodd"/></svg>
@@ -109,7 +109,7 @@ require __DIR__ . '/partials/header.php';
         </div>
 
         <div class="mt-14 text-center">
-            <a href="<?= REGISTER_URL ?>"
+            <a href="<?= REGISTER_URL ?>" target="_blank" rel="noopener"
                class="inline-flex items-center gap-2 rounded-full bg-accent px-8 py-3.5 text-base font-bold text-ink-900 shadow-xl shadow-accent/25 transition-transform hover:-translate-y-0.5">
                 Register Now
                 <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z" clip-rule="evenodd"/></svg>
@@ -295,7 +295,7 @@ require __DIR__ . '/partials/header.php';
                     </ul>
                 </div>
                 <div class="flex flex-col gap-3 lg:col-span-2 lg:items-end">
-                    <a href="<?= REGISTER_URL ?>"
+                    <a href="<?= REGISTER_URL ?>" target="_blank" rel="noopener"
                        class="inline-flex w-full items-center justify-center gap-2 rounded-full bg-accent px-8 py-4 text-base font-bold text-ink-900 shadow-lg shadow-accent/25 transition-transform hover:-translate-y-0.5 lg:w-auto">
                         Register Now
                         <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z" clip-rule="evenodd"/></svg>
