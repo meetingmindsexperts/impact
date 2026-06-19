@@ -50,7 +50,7 @@ $event = [
 ];
 
 $stats = [
-    ['num' => '13',    'label' => 'Expert Faculty',      'icon' => 'users'],
+    ['num' => '11',    'label' => 'Expert Faculty',      'icon' => 'users'],
     ['num' => '5',     'label' => 'Scientific Sessions', 'icon' => 'presentation'],
     ['num' => 'Vida Emirates Hills', 'label' => 'In-Person Meeting', 'icon' => 'location', 'numCls' => 'text-xl sm:text-2xl'],
     ['num' => 'CME',   'label' => 'Accredited',          'icon' => 'shield-check'],
@@ -62,26 +62,24 @@ $faculty = [
     ['role' => 'Meeting Chairman',  'name' => 'Mahmoud Marashi',      'initials' => 'MM', 'img' => 'assets/faculty/mahmoud-marashi.jpg'],
     ['role' => 'Speaker',           'name' => 'Asma Al-Olama',        'initials' => 'AO', 'img' => 'assets/faculty/asma-al-olama.jpg'],
     ['role' => 'Session Moderator', 'name' => 'Hasan Al Yaseen',      'initials' => 'HY', 'img' => 'assets/faculty/hasan-al-yaseen.jpg'],
-    ['role' => 'Session Moderator', 'name' => 'Husni Al Hateeti',     'initials' => 'HH', 'img' => 'assets/faculty/husni-al-hateeti.jpg'],
     ['role' => 'Session Moderator', 'name' => 'Hani Osman',           'initials' => 'HO', 'img' => 'assets/faculty/hani-osman.jpg'],
     ['role' => 'Session Moderator', 'name' => 'Hesham Alsabbah',      'initials' => 'HA'],
     ['role' => 'Speaker',           'name' => 'Emmanouil Nikolousis', 'initials' => 'EN', 'img' => 'assets/faculty/emmanouil-nikolousis.jpg'],
     ['role' => 'Speaker',           'name' => 'Amna Almuhairi',       'initials' => 'AM', 'img' => 'assets/faculty/amna-almuhairi.jpg'],
-    ['role' => 'Speaker',           'name' => 'Khalil Alfarsi',       'initials' => 'KA'],
+    ['role' => 'Speaker',           'name' => 'Amar Lal',             'initials' => 'AL'],
     ['role' => 'Speaker',           'name' => 'Lotfi Kourosh',        'initials' => 'LK'],
     ['role' => 'Speaker',           'name' => 'Inas El Najjar',       'initials' => 'IN', 'img' => 'assets/faculty/inas-el-najjar.jpg'],
     ['role' => 'Speaker',           'name' => 'Khaled Al Qawasmeh',   'initials' => 'KQ', 'img' => 'assets/faculty/khaled-al-qawasmeh.jpg'],
-    ['role' => 'Speaker',           'name' => 'Amar Lal',             'initials' => 'AL'],
 ];
 
 // Session-level programme. Full talk-by-talk detail is shared on registration.
 $agenda = [
     ['9:00 to 9:20 AM',   'Registration and Opening Ceremony',                                                          'Mahmoud Marashi'],
     ['9:20 to 10:05 AM',  'Session 1: NDMM Transplant Ineligible or Deferred, Treatment Strategies and Evidence',       'Moderator: Hasan Al Yaseen'],
-    ['10:05 to 10:50 AM', 'Session 2: NDMM Transplant Eligible, From Induction to Maintenance',                         'Moderator: Husni Al Hateeti'],
-    ['10:50 to 10:55 AM', 'Coffee Break',                                                                               'All Attendees'],
-    ['10:55 to 11:40 AM', 'Session 3: Innovative Anti-CD38 Administration, Patient Preference and Home Administration', 'Moderator: Hani Osman'],
-    ['11:40 to 12:25 PM', 'Session 4: Case Discussions',                                                                'Moderator: Hesham Alsabbah'],
+    ['10:05 to 10:50 AM', 'Session 2: NDMM Transplant Eligible, From Induction to Maintenance',                         'Moderator: Hani Osman'],
+    ['10:50 to 11:10 AM', 'Coffee Break',                                                                               'All Attendees'],
+    ['11:10 to 11:55 AM', 'Session 3: Innovative Anti-CD38 Administration, Patient Preference and Home Administration', 'Moderator: Hesham Alsabbah'],
+    ['11:55 to 12:25 PM', 'Session 4: Case Discussions',                                                                'Moderator: Mahmoud Marashi'],
     ['12:25 to 12:55 PM', 'Session 5: Expert Debate and Open Discussion',                                               'Moderated by Mahmoud Marashi'],
     ['12:55 to 1:00 PM',  'Closing Remarks and Next Steps',                                                             'Mahmoud Marashi'],
     ['1:00 to 2:00 PM',   'Lunch',                                                                                      'All Attendees'],
