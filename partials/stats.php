@@ -8,7 +8,7 @@
                     <span class="mb-4 grid h-12 w-12 place-items-center rounded-xl bg-brand/10 text-brand-light">
                         <?= icon_svg($stat['icon'], 'h-6 w-6') ?>
                     </span>
-                    <p class="font-head text-3xl font-extrabold leading-none text-brand-light sm:text-4xl"><?= e($stat['num']) ?></p>
+                    <p class="font-head font-extrabold leading-tight text-brand-light <?= e($stat['numCls'] ?? 'text-3xl sm:text-4xl') ?>"><?= e($stat['num']) ?></p>
                     <p class="mt-2 text-sm font-semibold text-white/70"><?= e($stat['label']) ?></p>
                 </div>
             <?php endforeach; ?>

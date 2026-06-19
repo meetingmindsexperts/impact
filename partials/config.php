@@ -52,7 +52,7 @@ $event = [
 $stats = [
     ['num' => '13',    'label' => 'Expert Faculty',      'icon' => 'users'],
     ['num' => '5',     'label' => 'Scientific Sessions', 'icon' => 'presentation'],
-    ['num' => 'Dubai', 'label' => 'In-Person Meeting',   'icon' => 'location'],
+    ['num' => 'Vida Emirates Hills', 'label' => 'In-Person Meeting', 'icon' => 'location', 'numCls' => 'text-xl sm:text-2xl'],
     ['num' => 'CME',   'label' => 'Accredited',          'icon' => 'shield-check'],
 ];
 
