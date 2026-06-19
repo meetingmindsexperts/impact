@@ -90,7 +90,7 @@ $agenda = [
 // On-page partner band. Sanofi sits between ESH (endorsing) and MME (managing).
 $partners = [
     ['label' => 'Endorsed by',  'img' => 'assets/logos/esh.png',    'alt' => 'Emirates Society of Haematology'],
-    ['label' => 'Supported by', 'img' => 'assets/logos/sanofi.png', 'alt' => 'Sanofi', 'cls' => 'max-h-12'],
+    ['label' => 'Supported by', 'img' => 'assets/logos/sanofi.png', 'alt' => 'Sanofi', 'cls' => 'max-h-8'],
     ['label' => 'Managed by',   'img' => 'assets/logos/mme.png',    'alt' => 'Meeting Minds Experts'],
 ];
 
