@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://myeloma-impact.com/sitemap.xml
