@@ -2,7 +2,7 @@
     <div class="mx-auto max-w-7xl px-5 lg:px-8">
         <div class="grid gap-10 md:grid-cols-3">
             <div>
-                <img src="assets/logo-white.png" alt="IMPACT" class="h-9 w-auto">
+                <img src="assets/logo-white.png" alt="IMPACT" class="h-12 w-auto sm:h-14">
                 <p class="mt-5 max-w-xs text-sm leading-relaxed text-white/60">
                     Innovative Myeloma Patient-Centered Advances and Clinical Transformation. A CME accredited in-person meeting on Multiple Myeloma.
                 </p>

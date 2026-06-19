@@ -142,7 +142,7 @@ $ogImage   = SITE_URL . '/assets/og-image.jpg';
 <header class="sticky top-0 z-40 w-full border-b border-white/10 bg-ink-900/85 backdrop-blur">
     <nav class="mx-auto flex max-w-7xl items-center justify-between px-5 py-3 lg:px-8" aria-label="Primary">
         <a href="<?= $home ?: '#top' ?>" class="flex items-center" aria-label="IMPACT home">
-            <img src="assets/logo-white.png" alt="IMPACT" class="h-7 w-auto sm:h-9">
+            <img src="assets/logo-white.png" alt="IMPACT" class="h-9 w-auto sm:h-12">
         </a>
 
         <div class="hidden items-center gap-8 text-lg font-semibold text-white/80 lg:flex">
