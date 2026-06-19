@@ -32,7 +32,7 @@
                     </li>
                     <li class="flex items-center gap-3">
                         <span class="grid h-8 w-8 flex-none place-items-center rounded-lg bg-white/5 text-brand-light"><?= icon_svg('mail', 'h-4 w-4') ?></span>
-                        <a href="mailto:virtual@meetingmindsexperts.com" class="break-all transition-colors hover:text-white">virtual@meetingmindsexperts.com</a>
+                        <a href="mailto:support@meetingmindsexperts.com" class="break-all transition-colors hover:text-white">support@meetingmindsexperts.com</a>
                     </li>
                     <li class="flex items-center gap-3">
                         <span class="grid h-8 w-8 flex-none place-items-center rounded-lg bg-white/5 text-brand-light"><?= icon_svg('clock', 'h-4 w-4') ?></span>

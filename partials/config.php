@@ -25,7 +25,7 @@ const GA_MEASUREMENT_ID = 'G-581DH9C7Y9';
 
 // Register buttons link straight to the external registration system.
 const REGISTER_URL  = 'https://events.meetingmindsgroup.com/e/impact2026/register/standard';
-const SUBSCRIBE_URL = 'mailto:virtual@meetingmindsexperts.com?subject=IMPACT%20Meeting%20enquiry';
+const SUBSCRIBE_URL = 'mailto:support@meetingmindsexperts.com?subject=IMPACT%20Meeting%20enquiry';
 
 // Replaceable hero banner artwork (desktop + mobile). Swap these files to
 // update the hero without touching markup.
