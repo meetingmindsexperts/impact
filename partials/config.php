@@ -59,17 +59,17 @@ $stats = [
 // Faculty wall. First entry is featured as the meeting chair. The brief
 // supplies names and roles only; cards render photo (or initials) + role + name.
 $faculty = [
-    ['role' => 'Meeting Chairman',  'name' => 'Mahmoud Marashi',      'initials' => 'MM', 'img' => 'assets/faculty/mahmoud-marashi.jpg'],
-    ['role' => 'Speaker',           'name' => 'Asma Al-Olama',        'initials' => 'AO', 'img' => 'assets/faculty/asma-al-olama.jpg'],
-    ['role' => 'Session Moderator', 'name' => 'Hasan Al Yaseen',      'initials' => 'HY', 'img' => 'assets/faculty/hasan-al-yaseen.jpg'],
-    ['role' => 'Session Moderator', 'name' => 'Hani Osman',           'initials' => 'HO', 'img' => 'assets/faculty/hani-osman.jpg'],
-    ['role' => 'Session Moderator', 'name' => 'Hesham Alsabbah',      'initials' => 'HA'],
-    ['role' => 'Speaker',           'name' => 'Emmanouil Nikolousis', 'initials' => 'EN', 'img' => 'assets/faculty/emmanouil-nikolousis.jpg'],
-    ['role' => 'Speaker',           'name' => 'Amna Almuhairi',       'initials' => 'AM', 'img' => 'assets/faculty/amna-almuhairi.jpg'],
-    ['role' => 'Speaker',           'name' => 'Amar Lal',             'initials' => 'AL'],
-    ['role' => 'Speaker',           'name' => 'Lotfi Kourosh',        'initials' => 'LK'],
-    ['role' => 'Speaker',           'name' => 'Inas El Najjar',       'initials' => 'IN', 'img' => 'assets/faculty/inas-el-najjar.jpg'],
-    ['role' => 'Speaker',           'name' => 'Khaled Al Qawasmeh',   'initials' => 'KQ', 'img' => 'assets/faculty/khaled-al-qawasmeh.jpg'],
+    ['role' => 'Meeting Chairman',  'name' => 'Mahmoud Marashi',      'initials' => 'MM', 'img' => 'assets/faculty/mahmoud-marashi.png'],
+    ['role' => 'Speaker',           'name' => 'Asma Al-Olama',        'initials' => 'AO', 'img' => 'assets/faculty/asma-al-olama.png'],
+    ['role' => 'Session Moderator', 'name' => 'Hasan Al Yaseen',      'initials' => 'HY', 'img' => 'assets/faculty/hasan-al-yaseen.png'],
+    ['role' => 'Session Moderator', 'name' => 'Hani Osman',           'initials' => 'HO', 'img' => 'assets/faculty/hani-osman.png'],
+    ['role' => 'Session Moderator', 'name' => 'Hesham Alsabbah',      'initials' => 'HA', 'img' => 'assets/faculty/hesham-alsabbah.png'],
+    ['role' => 'Speaker',           'name' => 'Emmanouil Nikolousis', 'initials' => 'EN', 'img' => 'assets/faculty/emmanouil-nikolousis.png'],
+    ['role' => 'Speaker',           'name' => 'Amna Almuhairi',       'initials' => 'AM', 'img' => 'assets/faculty/amna-almuhairi.png'],
+    ['role' => 'Speaker',           'name' => 'Amar Lal',             'initials' => 'AL', 'img' => 'assets/faculty/amar-lal.png'],
+    ['role' => 'Speaker',           'name' => 'Lotfi Kourosh',        'initials' => 'LK', 'img' => 'assets/faculty/lotfi-kourosh.png'],
+    ['role' => 'Speaker',           'name' => 'Inas El Najjar',       'initials' => 'IN', 'img' => 'assets/faculty/inas-el-najjar.png'],
+    ['role' => 'Speaker',           'name' => 'Khaled Al Qawasmeh',   'initials' => 'KQ', 'img' => 'assets/faculty/khaled-al-qawasmeh.png'],
 ];
 
 // Session-level programme. Full talk-by-talk detail is shared on registration.
