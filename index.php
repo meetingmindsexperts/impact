@@ -155,6 +155,16 @@ require __DIR__ . '/partials/header.php';
                 </span>
 
                 <h3 class="mt-3 font-head text-lg font-extrabold text-white"><?= e($p['name']) ?></h3>
+
+                <?php if (!empty($p['title'])): ?>
+                    <p class="mt-1.5 text-sm font-semibold leading-snug text-brand-light"><?= e($p['title']) ?></p>
+                <?php endif; ?>
+                <?php if (!empty($p['org'])): ?>
+                    <p class="mt-1 text-xs leading-snug text-white/60"><?= e($p['org']) ?></p>
+                <?php endif; ?>
+                <?php if (!empty($p['country'])): ?>
+                    <p class="mt-1 text-[11px] font-medium uppercase tracking-wide text-white/40"><?= e($p['country']) ?></p>
+                <?php endif; ?>
             </article>
             <?php return ob_get_clean();
         };

@@ -59,17 +59,17 @@ $stats = [
 // Faculty wall. First entry is featured as the meeting chair. The brief
 // supplies names and roles only; cards render photo (or initials) + role + name.
 $faculty = [
-    ['role' => 'Meeting Chairman',  'name' => 'Mahmoud Marashi',      'initials' => 'MM', 'img' => 'assets/faculty/mahmoud-marashi.png'],
-    ['role' => 'Speaker',           'name' => 'Asma Al-Olama',        'initials' => 'AO', 'img' => 'assets/faculty/asma-al-olama.png'],
-    ['role' => 'Session Moderator', 'name' => 'Hasan Al Yaseen',      'initials' => 'HY', 'img' => 'assets/faculty/hasan-al-yaseen.png'],
-    ['role' => 'Session Moderator', 'name' => 'Hani Osman',           'initials' => 'HO', 'img' => 'assets/faculty/hani-osman.png'],
-    ['role' => 'Session Moderator', 'name' => 'Hesham Alsabbah',      'initials' => 'HA', 'img' => 'assets/faculty/hesham-alsabbah.png'],
-    ['role' => 'Speaker',           'name' => 'Emmanouil Nikolousis', 'initials' => 'EN', 'img' => 'assets/faculty/emmanouil-nikolousis.png'],
-    ['role' => 'Speaker',           'name' => 'Amna Almuhairi',       'initials' => 'AM', 'img' => 'assets/faculty/amna-almuhairi.png'],
-    ['role' => 'Speaker',           'name' => 'Amar Lal',             'initials' => 'AL', 'img' => 'assets/faculty/amar-lal.png'],
-    ['role' => 'Speaker',           'name' => 'Lotfi Kourosh',        'initials' => 'LK', 'img' => 'assets/faculty/lotfi-kourosh.png'],
-    ['role' => 'Speaker',           'name' => 'Inas El Najjar',       'initials' => 'IN', 'img' => 'assets/faculty/inas-el-najjar.png'],
-    ['role' => 'Speaker',           'name' => 'Khaled Al Qawasmeh',   'initials' => 'KQ', 'img' => 'assets/faculty/khaled-al-qawasmeh.png'],
+    ['role' => 'Meeting Chairman',  'name' => 'Mahmoud Marashi',      'initials' => 'MM', 'img' => 'assets/faculty/mahmoud-marashi.png',      'title' => 'Vice President, Emirates Society of Haematology', 'org' => 'Consultant Hematologist, Mediclinic City Hospital', 'country' => 'United Arab Emirates'],
+    ['role' => 'Speaker',           'name' => 'Asma Sultan Al Olama', 'initials' => 'AO', 'img' => 'assets/faculty/asma-al-olama.png',        'title' => 'President, Emirates Society of Haematology',      'org' => 'Consultant Hematologist, Dubai Hospital',          'country' => 'United Arab Emirates'],
+    ['role' => 'Session Moderator', 'name' => 'Hasan Al Yaseen',      'initials' => 'HY', 'img' => 'assets/faculty/hasan-al-yaseen.png',       'title' => 'Consultant Hematologist',                        'org' => 'Dubai Hospital',                                   'country' => 'United Arab Emirates'],
+    ['role' => 'Session Moderator', 'name' => 'Hani Osman',           'initials' => 'HO', 'img' => 'assets/faculty/hani-osman.png',            'title' => 'Consultant Adult Clinical Haematology',          'org' => 'Tawam Hospital',                                   'country' => 'United Arab Emirates'],
+    ['role' => 'Session Moderator', 'name' => 'Hesham Elsabah',       'initials' => 'HE', 'img' => 'assets/faculty/hesham-alsabbah.png',       'title' => 'Senior Consultant Hematology',                   'org' => 'NCCCR, Hamad Medical Corporation',                 'country' => 'Qatar'],
+    ['role' => 'Speaker',           'name' => 'Emmanouil Nikolousis', 'initials' => 'EN', 'img' => 'assets/faculty/emmanouil-nikolousis.png',  'title' => 'Consultant Hematologist',                        'org' => 'Yas Clinic',                                       'country' => 'United Arab Emirates'],
+    ['role' => 'Speaker',           'name' => 'Amna Al Mehairi',      'initials' => 'AM', 'img' => 'assets/faculty/amna-almuhairi.png',        'title' => 'Consultant Hematologist',                        'org' => 'Dubai Health',                                     'country' => 'United Arab Emirates'],
+    ['role' => 'Speaker',           'name' => 'Amar Lal',             'initials' => 'AL', 'img' => 'assets/faculty/amar-lal.png',              'title' => 'Consultant Hematologist/Oncologist',             'org' => 'Tawam Hospital',                                   'country' => 'United Arab Emirates'],
+    ['role' => 'Speaker',           'name' => 'Kourosh Lotfi',        'initials' => 'KL', 'img' => 'assets/faculty/lotfi-kourosh.png',         'title' => 'Consultant Clinical Hematology',                 'org' => 'Sheikh Shakhbout Medical City (SSMC)',             'country' => 'United Arab Emirates'],
+    ['role' => 'Speaker',           'name' => 'Inas El Najjar',       'initials' => 'IN', 'img' => 'assets/faculty/inas-el-najjar.png',        'title' => 'Consultant, Hematology & Bone Marrow Transplant', 'org' => 'Abu Dhabi Stem Cell Center / Yas Clinic',         'country' => 'United Arab Emirates'],
+    ['role' => 'Speaker',           'name' => 'Khaled Al Qawasmeh',   'initials' => 'KQ', 'img' => 'assets/faculty/khaled-al-qawasmeh.png',     'title' => 'Clinical Research Nurse Professional',           'org' => 'Hematology/Oncology, Tawam Hospital',              'country' => 'United Arab Emirates'],
 ];
 
 // Session-level programme. Full talk-by-talk detail is shared on registration.
@@ -78,7 +78,7 @@ $agenda = [
     ['9:20 to 10:05 AM',  'Session 1: NDMM Transplant Ineligible or Deferred, Treatment Strategies and Evidence',       'Moderator: Hasan Al Yaseen'],
     ['10:05 to 10:50 AM', 'Session 2: NDMM Transplant Eligible, From Induction to Maintenance',                         'Moderator: Hani Osman'],
     ['10:50 to 11:10 AM', 'Coffee Break',                                                                               'All Attendees'],
-    ['11:10 to 11:55 AM', 'Session 3: Innovative Anti-CD38 Administration, Patient Preference and Home Administration', 'Moderator: Hesham Alsabbah'],
+    ['11:10 to 11:55 AM', 'Session 3: Innovative Anti-CD38 Administration, Patient Preference and Home Administration', 'Moderator: Hesham Elsabah'],
     ['11:55 to 12:25 PM', 'Session 4: Case Discussions',                                                                'Moderator: Mahmoud Marashi'],
     ['12:25 to 12:55 PM', 'Session 5: Expert Debate and Open Discussion',                                               'Moderated by Mahmoud Marashi'],
     ['12:55 to 1:00 PM',  'Closing Remarks and Next Steps',                                                             'Mahmoud Marashi'],
